@@ -32,7 +32,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE IF NOT EXISTS `pais` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `paisnombre` varchar(250) COLLATE utf8_unicode_ci NOT NULL,
+  `nombrepais` varchar(250) COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=247 ;
 
@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS `pais` (
 -- Volcado de datos para la tabla `pais`
 --
 
-INSERT INTO `pais` (`id`, `paisnombre`) VALUES
+INSERT INTO `pais` (`id`, `nombrepais`) VALUES
 (1, 'Afganistan'),
 (2, 'Albania'),
 (3, 'Alemania'),
